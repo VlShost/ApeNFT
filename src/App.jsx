@@ -1,15 +1,15 @@
-import { useState } from 'react';
-import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Layout from './components/SharedLayout/Layout';
+import Home from './pages/Home';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Vite + React</h1>
-
-      <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="*" element={<Navigate to={'/'} />} />
+      </Route>
+    </Routes>
   );
 }
 
