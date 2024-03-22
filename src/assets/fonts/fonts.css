@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Right Grotesk';
+  src: local('Right Grotesk'),
+    url('./RightGrotesk/RightGrotesk-CompactBlack.otf') format('opentype');
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'MessinaSans';
+  src: local('MessinaSans'), url('./MessinaSans/MessinaSansMono-Regular.ttf') format('truetype'),
+    url('./MessinaSans/MessinaSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./MessinaSans/MessinaSansMono-Regular.woff') format('woff'),
+    url('./MessinaSans/MessinaSansMono-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Biro Script Plus';
+  src: local('Biro Script Plus'), url('./BiroScript/BiroScriptPlus-Bold.ttf') format('truetype'),
+    url('./BiroScript/BiroScriptPlus-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./BiroScript/BiroScriptPlus-Bold.woff') format('woff'),
+    url('./BiroScript/BiroScriptPlus-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
