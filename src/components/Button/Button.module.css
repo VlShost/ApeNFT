@@ -1,0 +1,39 @@
+.btn {
+  /* height: 70px; */
+
+  top: 219px;
+  left: 55px;
+
+  /* padding: 16px 140px 20px 140px; */
+  gap: 10px;
+
+  border-radius: 12px;
+
+  font-family: Right Grotesk;
+  font-size: 28px;
+  line-height: 34px;
+
+  transition: 0.1s;
+}
+
+.heroBtn {
+  width: 337px;
+
+  color: #1e1e1e;
+  background-color: #1e1e1e1a;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.formBtn {
+  width: 397px;
+
+  color: #ffffff;
+  background-color: #dc3b5a;
+
+  &:hover {
+    color: #1e1e1e;
+  }
+}
