@@ -2,7 +2,6 @@
 import css from './Button.module.css';
 
 const Button = ({ children, section }) => {
-  console.log(section);
   return (
     <button
       className={`${css.btn} ${
