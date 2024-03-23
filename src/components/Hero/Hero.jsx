@@ -19,36 +19,32 @@ const Hero = () => {
 
         <p className={css.txtDecor}>Apes aRe eveRywhere</p>
 
-        <div className={css.wrapper}>
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcSet={`${ape_desk1x} 1x, ${ape_desk2x} 2x`}
-              type="image/jpg"
-            />
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcSet={`${ape_desk1x} 1x, ${ape_desk2x} 2x`}
+            type="image/jpg"
+          />
 
-            <source
-              media="(min-width: 768px)"
-              srcSet={`${ape_tabl1x} 1x, ${ape_tabl2x} 2x`}
-              type="image/jpg"
-            />
+          <source
+            media="(min-width: 768px)"
+            srcSet={`${ape_tabl1x} 1x, ${ape_tabl2x} 2x`}
+            type="image/jpg"
+          />
 
-            <source
-              media="(min-width: 360px)"
-              srcSet={`${ape_mob1x} 1x, ${ape_mob2x} 2x`}
-              type="image/jpg"
-            />
+          <source
+            media="(min-width: 360px)"
+            srcSet={`${ape_mob1x} 1x, ${ape_mob2x} 2x`}
+            type="image/jpg"
+          />
 
-            <img className={css.img} src={ape_mob1x} alt="Ape" />
-          </picture>
+          <img className={css.img} src={ape_mob1x} alt="Ape" />
+        </picture>
 
-          <Button section={'hero'}>MEET APES</Button>
-        </div>
+        <Button section={'hero'}>MEET APES</Button>
 
         <p className={css.txt}>
-          Yacht Ape is a collection of <br />
-          unique digital apes that you <br />
-          can own in NFT format
+          Yacht Ape is a collection of unique digital apes that you can own in NFT format
         </p>
       </div>
     </section>
