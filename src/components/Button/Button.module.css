@@ -3,7 +3,7 @@
   padding-bottom: 12px;
 
   border: 0;
-  border-radius: 12px;
+  border-radius: 8px;
 
   font-family: Right Grotesk;
   font-size: 16px;
@@ -12,16 +12,20 @@
   transition: var(--transition);
 
   @media screen and (min-width: 1280px) {
+    border-radius: 12px;
+
     font-size: 28px;
     line-height: 34px;
   }
 }
 
 .heroBtn {
+  margin-top: -4px;
   padding: 10px 74px 12px;
 
   color: var(--txt-black);
   background-color: var(--btn-hero-bg);
+  backdrop-filter: blur(10px);
 
   &:hover {
     color: var(--hover-hero);

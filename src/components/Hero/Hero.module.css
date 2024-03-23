@@ -1,12 +1,56 @@
 .section {
-  width: 344px;
-  /* height: 542px; */
+  padding: 54px 8px 30px;
+
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   border-radius: 12px;
   color: #1e1e1e;
   background-color: #dc3b5a;
 
-  font-family: Biro Script Plus;
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: 44px;
+  line-height: 44px;
+}
+
+.txtDecor {
+  margin-top: 8px;
+
+  font-family: var(--font-decor);
   font-size: 16px;
   line-height: 27px;
+
+  &:first-child {
+    margin-top: 36px;
+  }
+}
+
+.txt {
+  margin-top: 12px;
+  margin-bottom: 19px;
+
+  font-family: var(--font-txt);
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.img {
+  margin-top: 6px;
 }
