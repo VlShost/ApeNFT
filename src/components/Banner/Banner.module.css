@@ -1,0 +1,29 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+  padding: 6px 0 10px;
+
+  background-color: var(--accent);
+}
+
+.txt {
+  font-family: var(--font-title);
+  font-size: 36px;
+  line-height: 36px;
+  white-space: nowrap;
+  text-transform: uppercase;
+
+  animation: txtScroll 5s linear infinite;
+}
+
+@keyframes txtScroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

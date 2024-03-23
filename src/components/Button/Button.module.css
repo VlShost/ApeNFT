@@ -25,7 +25,7 @@
 
   color: var(--txt-black);
   background-color: var(--btn-hero-bg);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 
   &:hover {
     color: var(--hover-hero);
