@@ -1,40 +1,56 @@
 .btn {
-  /* height: 70px; */
-
-  top: 219px;
-  left: 55px;
-
-  /* padding: 16px 140px 20px 140px; */
-  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 12px;
 
   border: 0;
   border-radius: 12px;
 
   font-family: Right Grotesk;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 16px;
+  line-height: 19px;
 
-  transition: 0.1s;
+  transition: var(--transition);
+
+  @media screen and (min-width: 1280px) {
+    font-size: 28px;
+    line-height: 34px;
+  }
 }
 
 .heroBtn {
-  width: 337px;
+  padding: 10px 74px 12px;
 
-  color: #1e1e1e;
-  background-color: #1e1e1e1a;
+  color: var(--txt-black);
+  background-color: var(--btn-hero-bg);
 
   &:hover {
-    color: #ffffff;
+    color: var(--hover-hero);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 10px 61px 12px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 16px 109.5px 20px;
   }
 }
 
 .formBtn {
-  width: 397px;
+  padding: 10px 91.5px 12px;
 
-  color: #ffffff;
-  background-color: #dc3b5a;
+  color: var(--txt);
+  background-color: var(--btn-mint-bg);
 
   &:hover {
-    color: #1e1e1e;
+    color: var(--hover-mint);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 10px 107px 12px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 16px 170px 20px;
   }
 }
