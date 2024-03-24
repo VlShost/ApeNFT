@@ -1,7 +1,5 @@
 .banner {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
+  width: 100%;
 
   padding: 6px 0 10px;
 
@@ -14,16 +12,22 @@
   line-height: 36px;
   white-space: nowrap;
   text-transform: uppercase;
+}
+
+.txtScroll {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 
   animation: txtScroll 5s linear infinite;
 }
 
 @keyframes txtScroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(200%);
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-200%);
   }
 }
