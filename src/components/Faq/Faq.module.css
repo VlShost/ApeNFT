@@ -1,0 +1,76 @@
+.section {
+  padding: 30px 72px;
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: 44px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  margin-top: 24px;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 8px 8px 10px;
+
+  width: 216px;
+}
+
+.listItem.visible {
+  border-radius: 12px;
+  background-color: var(--card-bg);
+}
+
+.txtWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+  color: var(--txt);
+
+  cursor: pointer;
+}
+
+.itemNum {
+  display: inline-block;
+  color: var(--accent);
+
+  font-family: var(--font-decor);
+  letter-spacing: 8px;
+}
+
+.itemTitle {
+  margin: 0;
+
+  font-family: var(--font-title);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.txt {
+  display: none;
+
+  padding-left: 50px;
+
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.txt.visible {
+  display: block;
+}
