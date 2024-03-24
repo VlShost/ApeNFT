@@ -1,42 +1,42 @@
 [
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item1@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item1@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item1@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item1@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item2@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item2@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item2@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item2@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item3@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item3@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item3@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item3@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item4@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item4@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item4@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item4@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item5@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item5@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item5@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item5@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item6@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item6@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item6@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item6@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item7@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item7@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item7@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item7@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item8@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item8@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item8@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item8@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item9@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item9@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item9@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item9@2x.jpg"
   },
   {
-    "image1x": "ApeNFT/src/assets/images/collection/item10@1x.jpg",
-    "image2x": "ApeNFT/src/assets/images/collection/item10@2x.jpg"
+    "image1x": "ApeNFT/assets/images/collection/item10@1x.jpg",
+    "image2x": "ApeNFT/assets/images/collection/item10@2x.jpg"
   }
 ]
