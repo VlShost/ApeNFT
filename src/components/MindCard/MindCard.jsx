@@ -1,6 +1,6 @@
 import css from './MindCard.module.css';
 
-// eslint-disable-next-line react/prop-types, no-unused-vars
+// eslint-disable-next-line react/prop-types
 const MindCard = ({ title, text }) => {
   return (
     <div className={css.card}>

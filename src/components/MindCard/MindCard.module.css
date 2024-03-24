@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  width: 216px;
+  max-width: 216px;
   height: 242px;
 
   padding: 24px 12px;
@@ -21,6 +21,7 @@
 
 .title {
   margin: 0;
+
   font-size: 32px;
   line-height: 32px;
   font-family: var(--font-title);

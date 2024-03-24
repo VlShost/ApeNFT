@@ -13,13 +13,14 @@ const MindMap = () => {
       <h2 className={css.title}>MindMap</h2>
       <Swiper
         grabCursor={true}
+        centeredSlides={true}
         navigation={{
-          prevEl: '#prevBtn',
-          nextEl: '#nextBtn',
+          prevEl: '#prevSlide',
+          nextEl: '#nextSlide',
         }}
         breakpoints={{
           360: {
-            slidesPerView: 1,
+            slidesPerView: 'auto',
           },
           768: {
             slidesPerView: 4,
@@ -29,10 +30,13 @@ const MindMap = () => {
             },
           },
         }}
-        keyboard={{ enabled: true }}
+        keyboard={{
+          enabled: true,
+          onlyInViewport: true,
+        }}
         modules={[Navigation, Keyboard]}
       >
-        <SwiperSlide>
+        <SwiperSlide className={css.slider}>
           <MindCard
             title={'YAPE DROP'}
             text={
@@ -40,7 +44,7 @@ const MindMap = () => {
             }
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={css.slider}>
           <MindCard
             title={'New Collection'}
             text={
@@ -48,7 +52,7 @@ const MindMap = () => {
             }
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={css.slider}>
           <MindCard
             title={'Token'}
             text={
@@ -56,16 +60,16 @@ const MindMap = () => {
             }
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={css.slider}>
           <MindCard title={'Learn more in mind map'} />
         </SwiperSlide>
       </Swiper>
       <div className={css.btnWrapper}>
-        <button type="button" id="prevBtn" className={css.btn}>
+        <button type="button" id="prevSlide" className={css.btn}>
           Prev
         </button>
 
-        <button type="button" id="nextBtn" className={css.btn}>
+        <button type="button" id="nextSlide" className={css.btn}>
           Next
         </button>
       </div>
